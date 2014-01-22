@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var nn = require('../');
+
+nn.start(function (err) {
+  if (err) {
+    nn.log.error('Error:');
+    nn.log.error(err.message);
+  }
+});
+

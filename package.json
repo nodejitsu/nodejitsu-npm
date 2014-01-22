@@ -1,0 +1,28 @@
+{
+  "name": "nodejitsu-npm",
+  "description": "a simple utility to setup your nodejitsu private npm!",
+  "version": "0.0.0",
+  "author": "Nodejitsu Inc. <info@nodejitsu.com>",
+  "preferGlobal": true,
+  "bin": {
+    "nodejitsu-npm": './bin/nodejitsu-npm'
+  },
+  "repository": {
+    "url": "git://github.com/nodejitsu/nodejitsu-npm.git"
+  },
+  "main": "./lib/nodejitsu-npm.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "flatiron": "~0.3.11",
+    "ini": "~1.1.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "license": "MIT"
+}
