@@ -5,7 +5,7 @@
   "author": "Nodejitsu Inc. <info@nodejitsu.com>",
   "preferGlobal": true,
   "bin": {
-    "nodejitsu-npm": './bin/nodejitsu-npm'
+    "nodejitsu-npm": "./bin/nodejitsu-npm"
   },
   "repository": {
     "url": "git://github.com/nodejitsu/nodejitsu-npm.git"
