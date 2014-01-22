@@ -7,5 +7,6 @@ nn.start(function (err) {
     nn.log.error('Error:');
     nn.log.error(err.message);
   }
+  nn.log.info(' Success!')
 });
 
