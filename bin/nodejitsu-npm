@@ -2,11 +2,12 @@
 
 var nn = require('../');
 
-nn.start(function (err) {
+nn.start(function (err, ok) {
   if (err) {
-    nn.log.error('Error:');
-    nn.log.error(err.message);
+    return nn.log.error('Error: ' + nn.log.error(err.message));
   }
-  nn.log.info(' Success!');
+  else if (ok) {
+    nn.log.info(' Success!');
+  }
 });
 
