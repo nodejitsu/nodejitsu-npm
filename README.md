@@ -1,6 +1,6 @@
 # nodejitsu-npm
 
-A simple CLI utility to help you get started with a Nodejitsu Private NPM!
+A simple CLI utility to help you get started with a Nodejitsu Private npm!
 
 ## Getting started!
 
