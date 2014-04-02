@@ -1,7 +1,7 @@
 {
   "name": "nodejitsu-npm",
   "description": "a simple utility to setup your nodejitsu private npm!",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Nodejitsu Inc. <info@nodejitsu.com>",
   "preferGlobal": true,
   "bin": {
